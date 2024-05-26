@@ -4,7 +4,7 @@ const InstructionScreen = ({ onNext }) => {
   return (
     <div className="instruction-screen">
       <button className="back-button">←</button>
-      <h1>Select a card.</h1>
+      <h1>Selct a card.</h1>
       <div className="card-container">
         {Array.from({ length: 12 }).map((_, index) => (
           <div key={index} className="card">
