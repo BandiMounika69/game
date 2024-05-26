@@ -1,0 +1,13 @@
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 70px;
+  height: 70px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  font-size: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}

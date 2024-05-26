@@ -1,0 +1,98 @@
+.final-rewards-screen {
+  width: 100%;
+  height: 100vh;
+  background: url("/public/image11.png") no-repeat center center / cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.back-button img {
+  width: 50px;
+  height: 50px;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 20px;
+  background: yellow;
+  margin: 20px 0;
+  position: relative;
+}
+
+.reward-container {
+  background: #ffdd94;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reward-container h2 {
+  font-size: 32px;
+  color: #fff;
+}
+
+.banana-count {
+  font-size: 48px;
+  color: #ff6f00;
+  margin: 10px 0;
+}
+
+.monkey-container {
+  margin: 20px 0;
+}
+
+.monkey-container img {
+  width: 150px;
+  height: 150px;
+}
+
+.ok-button {
+  background: #ffb74d;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.ok-button:hover {
+  background: #ff9800;
+}
+
+.bananas {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.bananas img {
+  width: 50px;
+  height: 50px;
+  animation: float 2s infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

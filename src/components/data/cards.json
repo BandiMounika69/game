@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "banana", "image": "/public/banana.jpg" },
+  { "id": 2, "name": "apple", "image": "/public/apple.jpg" },
+  { "id": 1, "name": "banana", "image": "/public/banana.jpg" },
+  { "id": 2, "name": "apple", "image": "/public/apple.jpg" }
+]
